@@ -1,0 +1,21 @@
+body{
+    background-color: green;
+    color: black;
+    font-family: sans-serif;
+    border: solid 1px;
+    
+}
+
+header{
+    margin-bottom:10px;
+    background-color: gray;
+}
+section{
+    background-color: orange;
+    margin-bottom:10px;
+}
+
+footer{
+    background-color: gray;
+    margin-top:10px;
+}
