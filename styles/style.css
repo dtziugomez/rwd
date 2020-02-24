@@ -3,7 +3,7 @@ body{
     color: black;
     font-family: sans-serif;
     border: solid 1px;
-    
+    text-transform: uppercase;
 }
 
 header{
@@ -18,4 +18,34 @@ section{
 footer{
     background-color: gray;
     margin-top:10px;
+    position: fixed bottom;
+    text-align: center;
+    background-image: linear-gradient(gray,black);
+}
+
+p{
+    color: rgba(100%,0%,0%,0.5);
+    text-indent: 1em;
+    text-align: justify;
+    line-height: 1.5;
+    letter-spacing: 3px;
+    word-spacing: 1px;
+    white-space: normal;
+    font-size: medium;
+    font-style: oblique;
+    font-weight: 200;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+html{
+    --color:blue;
+}
+
+h1{
+    text-shadow: 1px -1px 1px gray;
+}
+
+.drop-shadow{
+    box-shadow: inset 3px 3px 3px 6px #ccc;
 }
